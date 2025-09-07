@@ -1,9 +1,9 @@
-package Shapes;
+package Abstractdesign;
 
 public abstract class Shape
 {
-    private String name;
-    private String color;
+    public String name;
+    public String color;
 
     public void getArea()
     {}
