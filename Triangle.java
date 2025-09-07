@@ -19,14 +19,10 @@ public class Triangle extends Shape implements Calculable, Drawable, Describable
     @Override
     public void draw() 
     {
-            System.out.println("Drawing a " + getColor() + " triangle named " + getDescription() + " with base " + base + " and height " + height);
+        System.out.println("Drawing a " + getColor() + " " + getDescription() + " with base " + base + " and height " + height);
     }
 
-        @Override
-        public String getDescription() {
-            return super.getName();
-        }
-
+        
     @Override
     public String getDescription() 
     {

@@ -5,6 +5,7 @@ public class Main
         Circle circle = new Circle("Red", "Circle", 5);
         Rectangle rectangle = new Rectangle("Blue", "Rectangle", 4, 6);
         Triangle triangle = new Triangle("Green", "Triangle", 6, 10); 
+        Square square = new Square("Yellow", "Square", 4);
 
         circle.draw();
         System.out.println("Area: " + circle.area());
@@ -17,5 +18,9 @@ public class Main
         triangle.draw();
         System.out.println("Area: " + triangle.area());
         System.out.println("Description: " + ((Describable)triangle).getDescription());
+
+        square.draw();
+        System.out.println("Area: " + square.area());
+        System.out.println("Description: " + ((Describable)square).getDescription());
     }
 }
