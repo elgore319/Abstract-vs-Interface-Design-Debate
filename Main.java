@@ -20,7 +20,7 @@ public class Main
 
         rectangle.draw();
         System.out.println("Area: " + rectangle.area());
-        System.out.println("Description: " + ((Describable)rectangle).getDescription());
+        //System.out.println("Description: " + ((Describable)rectangle).getDescription());
 
         triangle.draw();
         System.out.println("Area: " + triangle.area());

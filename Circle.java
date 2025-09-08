@@ -1,7 +1,7 @@
 /**
  * Represents a circle shape with a radius.
  */
-public class Circle extends Shape implements Describable
+public class Circle extends Shape implements Drawable, Calculable, Describable
 {
     private double radius;
 
@@ -45,4 +45,6 @@ public class Circle extends Shape implements Describable
     {
         return super.getName();
     }
+
+    
 }
